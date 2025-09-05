@@ -1,4 +1,4 @@
-import { GoogleTagManager } from "@next/third-parties/google";
+ import { GoogleTagManager } from "@next/third-parties/google";
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -7,12 +7,13 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Abu Said - Software Developer",
+  title: "Portfolio of Saurabh Kasaudhan - Software Developer",
   description:
-    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is the portfolio of Saurabh Kasaudhan. I am a passionate and detail-oriented Software Developer with strong knowledge in web technologies. I specialize in frontend development, love learning new things, and enjoy taking on challenges. I am always open to collaborating with others and constantly improving my skills.",
 };
 
 export default function RootLayout({ children }) {
